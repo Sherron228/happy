@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.fon {
+    background-image: url("/фотки/klinok.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.confetti-wrapper {
+    height: 50px auto; /* Фиксированная высота для блока с конфетти */
+    position: static;
+    overflow: hidden;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+#cake {
+    width: 200px;
+    margin: 20px auto;
+}
+#cake1 {
+    width: 100px;
+    margin: 20px auto;
+}
+#cake2 {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+.button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button1:hover {
+    transform: scale(1.1);
+}
+
+.button2:hover {
+    transform: scale(1.1);
+}
+
+a {
+    margin: 60px;
+    text-decoration: none;
+}
+
+.confetti-piece {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fall 5s linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100vh) rotate(0deg);
+    }
+    100% {
+        transform: translateY(100vh) rotate(720deg);
+    }
+}
+
+h2 {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
